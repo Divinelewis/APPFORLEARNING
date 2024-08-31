@@ -1,0 +1,23 @@
+.HeroSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.upperimg {
+    width: 30%;
+    align-items: left;
+}
+
+section .Firstpart .bodytitle {
+    font-size: 6em;
+    line-height: 1em;
+    margin: 0 0 .5em 0;
+}
+
+p {
+    font-size: 1.2em;
+}
