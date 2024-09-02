@@ -7,17 +7,30 @@
     margin: 0 auto;
 }
 
-.upperimg {
-    width: 30%;
-    align-items: left;
+section .Firstpart, .Secondpart {
+    flex: 1;
+    padding: 0 1.5em 0 1.5em;
 }
 
 section .Firstpart .bodytitle {
-    font-size: 6em;
-    line-height: 1em;
-    margin: 0 0 .5em 0;
+    font-size: 4.5em;
+    font-weight: 600;
+    line-height: 1.1em;
+    margin: 0 0 .2em 0;
 }
 
+section .Secondpart {
+    /* flex: 1; */
+    background-color: red;
+    display: flex;
+
+}
+
+/* .Secondpart img {
+    object-fit: cover;
+} */
+
 p {
-    font-size: 1.2em;
+    font-weight: 500;
+    font-size: 1.1em;
 }

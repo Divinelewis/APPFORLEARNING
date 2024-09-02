@@ -37,8 +37,8 @@ nav ul li:hover {
 .navbar-links a {
     text-decoration: none;
     margin: 0 1rem;
-    color: rgba(0, 48, 66, 0.87);
-    font-weight: bold;
+    color: rgba(1, 31, 43, 0.87);
+    font-weight: 600;
 }
 
 .navbar-links a:hover {
@@ -87,6 +87,6 @@ nav ul li:hover {
     }
 
     nav ul li:hover {
-        background-color: rgba(0, 32, 44, 0.384);
+        background-color: rgba(1, 31, 43, 0.87);
     }
 }

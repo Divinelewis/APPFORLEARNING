@@ -12,8 +12,8 @@ function Hero() {
             At AppForLearning, we believe in the power of knowledge to transform lives. Discover tools, courses, and resources that fuel your growth.
             </p>
         </div>
-        <div className="upperimg">
-            <img src={HeaderImg} alt="Hero Image" />
+        <div className="Secondpart">
+            <img src={HeaderImg} className="Heroimg" alt="Hero Image" />
         </div>
     </section>
   )
