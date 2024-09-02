@@ -21,7 +21,7 @@ section .Firstpart .bodytitle {
 
 section .Secondpart {
     /* flex: 1; */
-    background-color: red;
+    background-color: rgb(228, 231, 236);
     display: flex;
 
 }
