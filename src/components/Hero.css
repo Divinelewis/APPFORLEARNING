@@ -21,7 +21,7 @@ section .Firstpart .bodytitle {
 
 section .Secondpart {
     /* flex: 1; */
-    background-color: rgb(228, 231, 236);
+    /* background-color: rgb(228, 231, 236); */
     display: flex;
 
 }
@@ -33,4 +33,39 @@ section .Secondpart {
 p {
     font-weight: 500;
     font-size: 1.1em;
+}
+
+@media (max-width: 1024px) {
+    section .Firstpart .bodytitle {
+        font-size: 3.35em;
+    }
+
+    p {
+        font-weight: 500;
+        font-size: 1em;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .HeroSection {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    section .Firstpart .bodytitle {
+        font-size: 4em;
+        padding-top: .2em;
+    }
+
+    section .Secondpart {
+        margin: 0;
+        width: 100%;
+    }
+
+    .HeroSection img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
 }
