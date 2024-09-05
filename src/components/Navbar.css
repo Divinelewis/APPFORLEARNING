@@ -2,6 +2,7 @@
     background-color: white;
     margin: 0;
     padding: 1em 1.5em;
+    border-bottom: 2px solid rgb(228, 231, 236);;
 }
 
 nav {

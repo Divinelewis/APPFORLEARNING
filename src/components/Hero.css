@@ -68,4 +68,9 @@ p {
         height: auto;
         display: block;
     }
+
+    p {
+        font-weight: 500;
+        font-size: 1.1em;
+    }
 }
