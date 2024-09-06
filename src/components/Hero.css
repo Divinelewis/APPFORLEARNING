@@ -14,7 +14,6 @@ section .Firstpart, .Secondpart {
 
 section .Firstpart .bodytitle {
     font-size: 4.5em;
-    font-weight: 600;
     line-height: 1.1em;
     margin: 0 0 .2em 0;
 }
@@ -33,6 +32,7 @@ section .Secondpart {
 p {
     font-weight: 500;
     font-size: 1.1em;
+    color: #666;
 }
 
 @media (max-width: 1024px) {
