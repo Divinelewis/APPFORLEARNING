@@ -1,7 +1,7 @@
 import React from 'react';
 import './Aboutus.css';
 
-function Aboutus() {
+function Aboutus({ aboutSectionRef }) {
   const aboutData = [
     {
       title: 'Innovative Learning',
@@ -22,7 +22,7 @@ function Aboutus() {
   ];
 
   return (
-    <section className="second-cont">
+    <section ref={aboutSectionRef} className="second-cont">
       <div className="about-us">
         <h1 className="about-title">What do we do?</h1>
         <p className="about-subtitle">At AppForLearning, we believe in shaping the future through accessible, quality education. Here's what makes us unique:</p>

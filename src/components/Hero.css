@@ -13,7 +13,7 @@ section .Firstpart, .Secondpart {
 }
 
 section .Firstpart .bodytitle {
-    font-size: 4.5em;
+    font-size: 4.1em;
     line-height: 1.1em;
     margin: 0 0 .2em 0;
 }
@@ -37,7 +37,7 @@ p {
 
 @media (max-width: 1024px) {
     section .Firstpart .bodytitle {
-        font-size: 3.35em;
+        font-size: 3.15em;
     }
 
     p {
@@ -54,7 +54,7 @@ p {
     }
 
     section .Firstpart .bodytitle {
-        font-size: 4em;
+        font-size: 3.1rem;
         padding-top: .2em;
     }
 

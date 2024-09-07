@@ -32,10 +32,10 @@ nav ul li:hover {
     list-style: none;
 }
 
-.navbar-links:hover {
+/* .navbar-links:hover {
     display: flex;
     list-style: none;
-}
+} */
 
 .navbar-links a {
     text-decoration: none;
@@ -47,6 +47,19 @@ nav ul li:hover {
 .navbar-links a:hover {
     color:rgba(0, 85, 116, 0.87);
 }
+
+.navbar-links li button {
+    background: none;
+    border: none;
+    font-weight: 600;
+    color:rgba(1, 31, 43, 0.87);
+    font-family: inherit;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 0 1rem;
+    padding: 0;
+}
+
 
 @media (max-width: 768px) {
     nav .menu-icon {
