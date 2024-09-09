@@ -1,6 +1,6 @@
 /* General Section Styling */
 .second-cont {
-  background-color: #f9f9f9;
+  background-color: var(--clr-bg-sec);
 }
 
 .about-us {
@@ -12,14 +12,14 @@
 
 .about-title {
   font-size: 4.1em;
-  color: #333;
+  color: var(--clr-header);
   margin-bottom: 20px;
   margin-top: 30px;
 }
 
 .about-subtitle {
   font-size: 1.2em;
-  color: #666;
+  color: var(--clr-p);
   margin-bottom: 40px;
   max-width: 700px;
   margin-left: auto;
@@ -48,13 +48,13 @@
 /* Block Content Styling */
 .block h2 {
   font-size: 1.5em;
-  color: #002549;
+  color: var(--clr-sec-body);
   margin-bottom: 10px;
 }
 
 .block p {
   font-size: 1em;
-  color: #555;
+  color: var(--clr-p);
   line-height: 1.6;
 }
 

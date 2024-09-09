@@ -4,11 +4,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
 
 :root {
+
+  /* Color choices*/
+  --clr-bg: rgb(249, 254, 255);
+  --clr-bg-sec: #f9f9f9;
+  --clr-header: #292930;
+  --clr-p: #464646;
+  --clr-img: rgb(228, 231, 236);
+  --clr-sec-nav: rgba(0, 85, 116, 0.87);
+  --clr-sec-body: #002549;
+
+  /* Other Presets */
   font-family: Teachers, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  color: rgba(1, 31, 43, 0.87);
-  background-color: rgb(249, 254, 255);  
+  color: var(--clr-header);
+  background-color: var(--clr-bg);
 }
 
 /* color: rgba(1, 31, 43, 0.87); */
