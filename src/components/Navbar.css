@@ -80,7 +80,7 @@ nav ul li:hover {
     .navbar-links.open {
         display: flex;
         flex-direction: column;
-        background-color: rgba(0, 48, 66);
+        background-color: var(--clr-header);
         position: absolute;
         top: 70%;
         right: 0;

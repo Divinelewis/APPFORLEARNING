@@ -58,6 +58,12 @@
   line-height: 1.6;
 }
 
+.icon {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 6px;
+}
+
 /* Responsive Design for Mobile */
 @media (max-width: 768px) {
   .about-content {
