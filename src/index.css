@@ -3,16 +3,23 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
 
-:root {
+@font-face {
+  font-family: 'NeueHaas';
+  src: url('./fonts/NeueHaasDisplayBold.ttf') format('truetype');
+  font-weight: bold;
+}
 
+:root {
   /* Color choices*/
-  --clr-bg: rgb(249, 254, 255);
+  --clr-bg: rgb(253, 255, 255);
   --clr-bg-sec: #f9f9f9;
   --clr-header: #292930;
   --clr-p: #464646;
   --clr-img: rgb(228, 231, 236);
   --clr-sec-nav: rgba(0, 85, 116, 0.87);
   --clr-sec-body: #002549;
+  --clr-dk: rgb(40, 40, 52);
+  --clr-dk-p: #eeeeee8f;
 
   /* Other Presets */
   font-family: Teachers, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -22,6 +29,10 @@
   background-color: var(--clr-bg);
 }
 
+h1 {
+  color: var(--clr-dk);
+  font-family: NeueHaas, Teachers, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
 /* color: rgba(1, 31, 43, 0.87); */
 /* #f5faff; */
 /* color: rgba(0, 48, 66, 0.87); */
